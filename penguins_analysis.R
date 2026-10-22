@@ -48,6 +48,7 @@ summary(model)
 # Save the regression results to a text file
 capture.output(summary(model), file = "regression_results.txt")
 
+
 #Jane's Branch
 # Load penguins csv
 penguins <- read.csv("penguins.csv")
