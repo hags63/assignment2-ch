@@ -25,3 +25,7 @@ Both results are saved as CSV files in this folder.
 3. Open `penguins_analysis.R` in RStudio.
 4. Set the working directory to the repository folder: Session → Set Working Directory → To Source File Location.
 5. Click **Source** to run the script. `summary_statistics.csv` and `species_summary.csv` will be created in the repository folder.
+
+
+## Analysis 3: Regression
+The script also runs a linear regression of body mass on flipper length. The results are saved to `regression_results.txt`.

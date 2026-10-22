@@ -38,3 +38,12 @@ print(species_summary)
 # ---- 4. Save the output ----
 write.csv(summary_stats,   "summary_statistics.csv", row.names = FALSE)
 write.csv(species_summary, "species_summary.csv",    row.names = FALSE)
+
+
+# ---- 5. Analysis 3: Regression ----
+# Does flipper length predict body mass?
+model <- lm(body_mass_g ~ flipper_length_mm, data = penguins)
+summary(model)
+
+# Save the regression results to a text file
+capture.output(summary(model), file = "regression_results.txt")
