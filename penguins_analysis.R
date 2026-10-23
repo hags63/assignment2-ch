@@ -47,3 +47,17 @@ summary(model)
 
 # Save the regression results to a text file
 capture.output(summary(model), file = "regression_results.txt")
+
+
+#Jane's Branch
+# Load penguins csv
+penguins <- read.csv("penguins.csv")
+
+# Basic descriptive analyses
+summary(penguins)
+
+mean(penguins$bill_depth_mm, na.rm = TRUE)
+
+hist(penguins$body_mass_g)
+
+hist(penguins$bill_length_mm)
