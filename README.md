@@ -29,3 +29,6 @@ Both results are saved as CSV files in this folder.
 
 ## Analysis 3: Regression
 The script also runs a linear regression of body mass on flipper length. The results are saved to `regression_results.txt`.
+
+## Collaborator additions (jane-branch)
+A teammate added descriptive analyses to `penguins_analysis.R` through a pull request: a summary of the full data set, the mean bill depth, and histograms of body mass and bill length.
